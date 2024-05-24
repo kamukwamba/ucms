@@ -30,6 +30,7 @@ func main() {
 	fmt.Println("Server running")
 	http.HandleFunc("/", routes.HomePage)
 	http.HandleFunc("/aboutus", routes.AboutUs)
+	http.HandleFunc("/programs", routes.Programs)
 	http.HandleFunc("/login", routes.LoginPage)
 	http.HandleFunc("/enroll", routes.Enrollment)
 	http.HandleFunc("/adminlogin", routes.AdminLogin)

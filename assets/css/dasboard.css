@@ -6,6 +6,7 @@
 
 
 
+
 .heading{
     position: static;
     background-color: rgb(45, 7, 50);
@@ -14,8 +15,6 @@
     
     
 }
-
-
 
 
 .side_bar{
@@ -42,9 +41,6 @@
     position: relative;
     width: 80%;
     box-sizing: border-box;
-
-    
-
 }
 
 .containt{
@@ -56,48 +52,6 @@
     display: inline-block;
     color: rgb(45, 7, 50);
     font-size: 1.8em;
-    
-}
-
-
-.side_bar a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    width: 100%;
-    
-}
-
-
-
-
-.side_ul{
-    width: 100%;
-    margin-top: 10px;
-}
-
-.side_bar li{
-    width: 100%;
-    text-align: center;
-    height: 40px;
-    list-style: none;
-    margin: 3px;
-
-    
-
-}
-
-ul li:hover{
-    background-color: blueviolet;
-
-}
-
-.active{
-    background-color: blueviolet;
-}
-
-hr{
-    color: rgba(45, 7, 50, .8);
     
 }
 
@@ -137,4 +91,37 @@ hr{
     align-items: center;
     color: white;
 
+}
+
+
+.side_ul{
+    width: 98%;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding-right: 5px;
+    padding-left: 0;
+
+}
+
+.side_ul li{
+    list-style: none;
+}
+
+.dashbuttons{
+    color: white;
+    width: 95%;
+    margin: 3px 10px;
+    height: 40px;
+    background-color: rgb(45, 7, 50);
+    border: 1px solid black;
+    border-radius: 3px;
+    
+
+}
+
+.dashbuttons:hover{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
 }
